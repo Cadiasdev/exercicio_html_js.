@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(37, 1, 60);
+}
+
+form{
+    margin-top: 20%;
+    margin-left: 34%;
+
+}
+input{
+    display: block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+    
+}
+form button{
+    display: block;
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: #000000;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(200, 147, 244);
+}
+
+
+label{
+    color: beige;
+}
+
+.message {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 34%;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    text-align: center;
+}
+.positive {
+    background-color: #d4edda;
+    color: #155724;
+}
+.negative {
+    background-color: #f8d7da;
+    color: #721c24;
+}
